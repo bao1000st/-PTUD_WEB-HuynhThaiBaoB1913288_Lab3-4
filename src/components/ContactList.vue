@@ -16,7 +16,7 @@
 <template>
   <ul class="list-group">
     <li
-      class="list-group-item"
+      class="list-group-item" style="color:black"
       v-for="(contact, index) in contacts"
       :key="contact._id"
       :class="{ active: index === activeIndex }"
